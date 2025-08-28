@@ -65,7 +65,7 @@ const Header = () => {
                   {item.name}
                 </a>
               ))}
-              <Button variant="hero" size="lg" className="mt-4">
+              <Button onClick={()=>{window.location.href="https://www.fiverr.com/lovable_expert"}} variant="hero" size="lg" className="mt-4">
                 Hire Me
               </Button>
             </div>
