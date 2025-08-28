@@ -29,13 +29,13 @@ const CTA = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-slide-in-right" style={{ animationDelay: "0.2s" }}>
-            <Button variant="hero" size="lg" className="group shadow-hero">
+            <Button onClick={()=>{window.location.href="mailto:timileyinareola2@gmail.com"}} variant="hero" size="lg" className="group shadow-hero">
               <Mail className="mr-2 h-5 w-5" />
               Contact Me Now
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
             </Button>
             
-            <Button variant="outline" size="lg" className="group border-hero-primary/30 text-hero-primary hover:bg-hero-primary hover:text-hero-primary-foreground">
+            <Button onClick={()=>{window.location.href="https://wa.me/2347041538350"}} variant="outline" size="lg" className="group border-hero-primary/30 text-hero-primary hover:bg-hero-primary hover:text-hero-primary-foreground">
               <MessageCircle className="mr-2 h-5 w-5" />
               Let's Chat
             </Button>

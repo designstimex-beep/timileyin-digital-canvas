@@ -27,7 +27,7 @@ const Platforms = () => {
               className="flex flex-col items-center group cursor-pointer"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="w-16 h-16 mb-3 p-3 rounded-xl bg-background border border-border/50 group-hover:border-hero-primary/50 transition-all duration-300 group-hover:shadow-hero/20 group-hover:-translate-y-1">
+              <div onClick={()=>{window.location.href="https://www.fiverr.com/lovable_expert"}} className="w-16 h-16 mb-3 p-3 rounded-xl bg-background border border-border/50 group-hover:border-hero-primary/50 transition-all duration-300 group-hover:shadow-hero/20 group-hover:-translate-y-1">
                 <img 
                   src={platform.logo} 
                   alt={platform.name}

@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Github, Linkedin, Twitter, Mail, Phone, Instagram } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -6,15 +6,17 @@ const Footer = () => {
   const quickLinks = [
     { name: "Portfolio", href: "#portfolio" },
     { name: "About", href: "#about" },
-    { name: "Services", href: "#services" },
-    { name: "Contact", href: "#contact" },
+    { name: "Contact", href: "mailto:timileyinareola2@gmail.com" },
   ];
 
   const socialLinks = [
-    { name: "GitHub", href: "#", icon: <Github className="h-5 w-5" /> },
+    { name: "GitHub", href: "https://github.com/designstimex-beep", icon: <Github className="h-5 w-5" /> },
     { name: "LinkedIn", href: "#", icon: <Linkedin className="h-5 w-5" /> },
-    { name: "Twitter", href: "#", icon: <Twitter className="h-5 w-5" /> },
-    { name: "Email", href: "mailto:hello@timileyin.dev", icon: <Mail className="h-5 w-5" /> },
+    { name: "Twitter", href: "https://x.com/DeveloperTimmy0", icon: <Twitter className="h-5 w-5" /> },
+    { name: "Email", href: "mailto:timileyinareola2@gmail.com", icon: <Mail className="h-5 w-5" /> },
+    { name: "Twitter", href: "https://wa.me/2347041538350", icon: <Phone className="h-5 w-5" /> },
+    { name: "Instagram", href: "https://instagram.com/developertimmy01", icon: <Instagram className="h-5 w-5" /> },
+
   ];
 
   return (
