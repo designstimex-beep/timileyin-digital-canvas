@@ -16,7 +16,7 @@ const ProjectShowcase = () => {
       role: "Full Stack Developer",
       tech: ["React", "Node.js", "PostgreSQL", "Chart.js"],
       description: "Comprehensive analytics platform with real-time data visualization and custom reporting.",
-      image: "/placeholder.svg",
+      image: "/image5.png",
     },
     {
       title: "AI Content Generator",
@@ -24,7 +24,7 @@ const ProjectShowcase = () => {
       role: "AI Integration Specialist",
       tech: ["Next.js", "OpenAI API", "Supabase", "Stripe"],
       description: "Intelligent content creation tool powered by advanced AI models with user management.",
-      image: "/placeholder.svg",
+      image: "/image6.png",
     },
     {
       title: "Restaurant Landing Page",
@@ -32,7 +32,7 @@ const ProjectShowcase = () => {
       role: "Frontend Developer",
       tech: ["React", "Tailwind CSS", "Framer Motion"],
       description: "Beautiful, responsive landing page with smooth animations and modern design.",
-      image: "/placeholder.svg",
+      image: "/image7.webp",
     },
     {
       title: "Fitness Tracking App",
@@ -40,7 +40,7 @@ const ProjectShowcase = () => {
       role: "React Native Developer", 
       tech: ["React Native", "Firebase", "Redux", "Chart.js"],
       description: "Cross-platform mobile app for tracking workouts and nutrition with social features.",
-      image: "/placeholder.svg",
+      image: "/image8.png",
     },
     {
       title: "E-learning Platform",
@@ -48,7 +48,7 @@ const ProjectShowcase = () => {
       role: "Full Stack Developer",
       tech: ["Vue.js", "Laravel", "MySQL", "WebRTC"],
       description: "Complete learning management system with video calls and progress tracking.",
-      image: "/placeholder.svg",
+      image: "/image9.jpg",
     },
     {
       title: "Chrome Extension",
@@ -56,7 +56,7 @@ const ProjectShowcase = () => {
       role: "Browser Extension Developer",
       tech: ["JavaScript", "Chrome APIs", "Local Storage"],
       description: "Productivity extension for managing tasks and bookmarks across browser sessions.",
-      image: "/placeholder.svg",
+      image: "/image10.webp",
     },
   ];
 

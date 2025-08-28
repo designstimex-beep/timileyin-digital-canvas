@@ -27,9 +27,9 @@ const Hero = () => {
       image: "/image3.png",
     },
     {
-      title: "Portfolio Website",
+      title: "PAYROT Website",
       category: "Landing Page",
-      description: "Beautiful, responsive portfolio showcasing creative work and services.",
+      description: "Landing Page Projects: Photos, videos, logos, illustrations and branding Behance.",
       tech: ["React", "Framer Motion", "Vercel"],
       image: "/image4.png",
     },
