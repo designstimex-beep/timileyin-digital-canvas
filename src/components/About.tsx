@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Download, Code, Palette, Zap } from "lucide-react";
-import profileAvatar from "@/assets/profile-avatar.jpg";
+import profileAvatar from "@/assets/avatarprofile.jpeg";
 
 const About = () => {
   const skills = [

@@ -31,7 +31,7 @@ const Hero = () => {
       category: "Landing Page",
       description: "Beautiful, responsive portfolio showcasing creative work and services.",
       tech: ["React", "Framer Motion", "Vercel"],
-      image: "/placeholder.svg",
+      image: "/image 1.png",
     },
   ];
 

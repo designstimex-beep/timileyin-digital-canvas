@@ -18,7 +18,7 @@ const Header = () => {
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <div className="text-2xl font-bold text-foreground">
-            Timileyin <span className="text-hero-primary">Dev</span>
+            Developer Tim
           </div>
 
           {/* Desktop Navigation */}
@@ -37,8 +37,8 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button variant="hero" size="lg">
-              Hire Me
+            <Button onClick={()=>{window.location.href="https://www.fiverr.com/lovable_expert"}} variant="hero" size="lg">
+              Hire me
             </Button>
           </div>
 
