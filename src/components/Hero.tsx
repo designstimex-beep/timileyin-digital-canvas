@@ -17,21 +17,21 @@ const Hero = () => {
       category: "Web App",
       description: "Modern chat application with AI integration and real-time messaging.",
       tech: ["React", "TypeScript", "Supabase", "AI"],
-      image: "/placeholder.svg",
+      image: "/image2.png",
     },
     {
       title: "E-commerce Dashboard",
       category: "Dashboard",
       description: "Comprehensive admin panel with analytics and inventory management.",
       tech: ["Next.js", "Tailwind", "PostgreSQL"],
-      image: "/placeholder.svg",
+      image: "/image3.png",
     },
     {
       title: "Portfolio Website",
       category: "Landing Page",
       description: "Beautiful, responsive portfolio showcasing creative work and services.",
       tech: ["React", "Framer Motion", "Vercel"],
-      image: "/image 1.png",
+      image: "/image4.png",
     },
   ];
 
