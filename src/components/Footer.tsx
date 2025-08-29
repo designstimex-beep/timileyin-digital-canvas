@@ -42,6 +42,7 @@ const Footer = () => {
                 <li key={link.name}>
                   <a
                     href={link.href}
+                    target="_blank"
                     className="text-muted-foreground hover:text-hero-primary transition-colors duration-300 relative group"
                   >
                     {link.name}
@@ -60,6 +61,7 @@ const Footer = () => {
                 <a
                   key={social.name}
                   href={social.href}
+                  target="_blank"
                   className="w-10 h-10 bg-background border border-border/50 rounded-lg flex items-center justify-center text-muted-foreground hover:text-hero-primary hover:border-hero-primary/50 hover:shadow-hero/20 transition-all duration-300 hover:-translate-y-1"
                   aria-label={social.name}
                 >
